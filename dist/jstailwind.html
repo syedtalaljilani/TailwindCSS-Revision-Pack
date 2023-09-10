@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="flex justify-center items-center h-screen flex-col">
+    <main class="w-20 h-40 bg-black border-4 border-black border-solid">
+    </main>
+    <button id="btnred" class="bg-red-500 mt-5 text-white">Red</button>
+    <button id="btnblue" class="bg-blue-500 mt-5 text-white">Blue</button>
+    <script>
+        const redbtn = document.querySelector('#btnred');
+        const bluebtn = document.querySelector('#btnblue');
+        const container = document.querySelector('main');
+        bluebtn.addEventListener('click',()=>{
+            container.classList.remove('border-red-500');
+          container.classList.add('border-blue-600');
+          
+        });
+        redbtn.addEventListener('click',()=>{
+          
+          container.classList.remove('border-blue-600');
+          container.classList.add('border-red-600');
+        });
+    </script>
+</body>
+</html>

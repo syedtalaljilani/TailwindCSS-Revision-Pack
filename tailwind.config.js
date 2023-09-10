@@ -6,6 +6,7 @@ module.exports = {
       fontFamily:{
         'Poppins':"'Poppins', sans-serif",
         'Unbounded':"'Unbounded', sans-serif",
+        'Bebas':"'Bebas Neue', sans-serif",
       },
       colors: {
         harlequin: {

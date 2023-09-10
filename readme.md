@@ -14,7 +14,7 @@
    </body>
 </html>
 ```
-
+# cn package and tw merge
 - Installtion of Tailwindcss
 - using cdn (not recommended)
 - using tailwindcss cli
